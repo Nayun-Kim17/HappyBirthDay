@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>레임님의 생일 축하합니다!</title>
+    <script>
+  (function(d) {
+    var config = {
+      kitId: 'jsw2cdl',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+    <style type="text/css">
+      body{ background: #FFD8F3; font-family: "black-han-sans", sans-serif;
+font-weight: 400;
+font-style: normal;}
+      #app{display: flex; align-items: center;}
+      #app canvas{margin:auto; margin-top:12vh;z-index: 20;}
+      h1 {position: absolute; top:5vh; left:0; bottom: 0; right: 0; margin: auto; text-align: center; font-size: 25em; background: none; z-index: 1;color: white; line-height: 0.9;}
+      p{position: absolute;left:0; top:80vh; right: 0; margin: auto; text-align: center; font-size: 1.6em; font-weight: bold; background: none; z-index: 25;color: black; line-height: 0.9;font-family: "kim-jung-chul-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h1>HAPPY<br>BIRTHDAY!</h1>
+      <p>케이크를 눌러보세요!</p>
+      <canvas id="canvas" width="1200" height="1024"></canvas>
+    </div>
+
+    <script src="https://unpkg.com/@rive-app/canvas@1.0.98"></script>
+    <script src="index.js"></script>
+  </body>
+    
+
+
+</html>
